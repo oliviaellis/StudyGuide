@@ -2,22 +2,35 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="main2.css">
     <title></title>
   </head>
   <body>
     <h1>JavaScript DOM</h1>
     <ul>
       <li>
-        <h4>Selecting a Single Element</h4>
+        <h3>Selecting a Single Element</h3>
         <p>You have a couple options when selecting a single element on the
           webpage.
         </p>
         <p><code>document.querySelector('<em>selector</em>')</code></p>
         <p><b>querySelector</b> finds and selects the first element on the page that matches with the passed in selector.</p>
-        <br><br>
+        <br>
         <p><code>document.getElementById('<em>id</em>')</code></p>
-        <p><b>getElementById</b>finds and selects the element on the page that has the matching ID attribute.</p>
+        <p><b>getElementById</b> finds and selects the element on the page that has the matching ID attribute.</p>
       </li>
+      <br>
+      <li>
+        <h3>Selecting Multiple Elements</h3>
+        <p>You also have options when trying to select multiple elements in the document.</p>
+        <p><code>document.querySelectorAll('<em>selector</em>')</code></p>
+        <p><b>document.querySelectorAll</b> selects all elements in the document that match the selector.</p>
+        <br>
+        <p><code>document.getElementsByTagName('<em>selector</em>')</code></p>
+        <p><b>document.getElementsByTagName</b> finds every element that matches the specified HTML tag.</p>
+        <br>
+        <p><code>document.getElementsByClassName('<em>selector</em>')</code></p>
+        <p><b>document.getElementsByClassName</b> finds every element that matches the specified CSS class.</p>
     </ul>
     <script src="main2.js"></script>
   </body>
